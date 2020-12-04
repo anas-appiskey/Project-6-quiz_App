@@ -48,6 +48,7 @@ function App() {
         correct,
         correctAnswer: questions[number].correct_answer,
       };
+
       setuserAnswers((prev) => [...prev, answerObject]);
     }
   };
